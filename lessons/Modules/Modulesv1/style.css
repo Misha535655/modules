@@ -5,7 +5,7 @@ body{
 header{
   display: flex;
   justify-content: space-around;
-  width: 780px;
+  width: 1170px;
   max-width: 100%;
   padding: 30px 0px;
   margin: 0 auto;
@@ -39,3 +39,37 @@ li{
 }
 .menu li a:hover{
   color: #000;}
+  /* <<<<<<<<<<<<<<<<<skider>>>>>>>>>>>>>> */
+.slider{
+height: 400px;
+width: 1170px;
+margin: 0 auto;
+  background: url(image/slider.jpeg)
+}
+.headContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headContainer .heading{
+font-size: 40px;
+margin:0;
+text-shadow: 0px 2px 25px rgba(0, 0, 0, 0.3);
+color:#fff;
+margin-top: 160px;
+}
+
+.headContainer .subtitle{
+  margin: 0;
+  font-size: 24px;
+  text-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  color:rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease-out;
+  }
+  .headContainer .subtitle:hover{
+    color:#fff
+  }
+  p::selection{
+    background: transparent;
+  }
