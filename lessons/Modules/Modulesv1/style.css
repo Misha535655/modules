@@ -44,6 +44,10 @@ li{
 }
 .menu li a:hover{
   color: #000;}
+
+  .menu .importent a{
+    color:#000;
+  }
   /* <<<<<<<<<<<<<<<<<skider>>>>>>>>>>>>>> */
 .slider{
 height: 400px;
@@ -124,9 +128,41 @@ footer{
   text-align: center;
   margin: 0 auto;
 }
+.textContainer2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.textContainer2 a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color:#fff;
+height: 40px;
+width: 40px;
+margin: 3px;
+border-radius: 3px;
+font-size: 1.8rem;
+opacity: .9;
+transition: all 0.2s ease-out;
+}
+.textContainer2 a:hover{
+opacity: 1;
+}
+
 .contact1{
-  background-color: #265999
+  background: #265999
 }
 .contact2{
-  background-color:#00b0ef;
+  background:#00b0ef;
+}
+.contact3{
+  background:#0066ff;
+}
+.contact4{
+  background:#0083d1;
+}
+.contact5{
+  background:#ff7600;
 }
