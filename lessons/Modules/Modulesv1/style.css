@@ -1,3 +1,8 @@
+html{
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
 body{
   background: #e5e5e5;
   margin: 0;
@@ -73,3 +78,30 @@ margin-top: 160px;
   p::selection{
     background: transparent;
   }
+  /* <<<<<<<<<<<<<<<<<<<<<<<<<<main>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+main{
+  max-width: ;
+  margin: 0 auto;
+  box-shadow:  0px 0px 50px 1px rgba(0, 0, 0, 0.4);
+  padding: 60px;
+  background: #fff;
+}
+.textConent{
+  width: 780px;
+  margin: 0 auto;
+}
+.textConent p{
+  margin: 30px 0px;
+  line-height: 26px;
+}
+.description{
+  text-align: center;
+  margin: 30px 0px;
+  line-height: 26px;
+  font-size: 14px;
+   color:#ababab;
+}
+.textConent p:first-child{
+  font-weight: bold;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<footer>>>>>>>>>>>>>>>>>>>>>>>>> */
