@@ -105,3 +105,28 @@ main{
   font-weight: bold;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<footer>>>>>>>>>>>>>>>>>>>>>>>>> */
+footer{
+  width: 1170px;
+  padding: 25px 0px;
+  background: rgba(0, 0, 0, 0.9);
+
+}
+.fotcontent{
+  width: 1170px;
+  padding: 25px 0px;
+  background:  rgba(0, 0, 0, 0.85);
+}
+.textContainer1{
+  color:#a6a6a6;
+  font-size: 13px;
+  width: 780px;
+  padding: 25px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.contact1{
+  background-color: #265999
+}
+.contact2{
+  background-color:#00b0ef;
+}
