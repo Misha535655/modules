@@ -12,3 +12,9 @@ firstName = prompt("your firstname","");
 lastName = prompt("your lastname","");
 alert("What’s up " + firstName.toUpperCase()+ "  " + lastName.toUpperCase());
 // <<<<<<<<<<<<<<<<task3>>>>>>>>>>>>>>>>
+var x = +prompt("enter 1 number","");
+var y = +prompt("enter 2 number","");
+alert( x + "+" + y + "=" + (x + y));
+alert( x + "-" + y + "=" + (x - y));
+alert( x + "/" + y + "=" + (x / y));
+alert( x + "*" + y + "=" + (x * y));
