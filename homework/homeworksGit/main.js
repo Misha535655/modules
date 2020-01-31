@@ -23,3 +23,6 @@ var speed = +prompt("enter speed","");
 var distance = 384400;
 var time = distance/speed;
 alert ("time = " + time + " minutes");
+// <<<<<<<<<<<<<<<<<<<<<<<<task5>>>>>>>>>>>>>>>>>>
+var z = Math.round(+prompt("enter number",""))
+alert ( z % 2 );
