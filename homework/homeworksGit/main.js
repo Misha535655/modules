@@ -26,3 +26,6 @@ alert ("time = " + time + " minutes");
 // <<<<<<<<<<<<<<<<<<<<<<<<task5>>>>>>>>>>>>>>>>>>
 var z = Math.round(+prompt("enter number",""))
 alert ( z % 2 );
+// <<<<<<<<<<<<<<<<<<<task6>>>>>>>>>>>>>>>>>
+var f = prompt("enter number","");
+alert(isFinite(f));
