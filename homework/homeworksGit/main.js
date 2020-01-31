@@ -18,3 +18,8 @@ alert( x + "+" + y + "=" + (x + y));
 alert( x + "-" + y + "=" + (x - y));
 alert( x + "/" + y + "=" + (x / y));
 alert( x + "*" + y + "=" + (x * y));
+// <<<<<<<<<<<<<<<<<<<<<<<task4>>>>>>>>>>>>>>>>>>
+var speed = +prompt("enter speed","");
+var distance = 384400;
+var time = distance/speed;
+alert ("time = " + time + " minutes");
